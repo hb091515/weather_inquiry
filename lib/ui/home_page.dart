@@ -35,6 +35,7 @@ class _HomePageState extends ConsumerState<HomePage> {
               },
               icon: const Icon(Icons.search))
         ],
+        centerTitle: true,
         title: Text(title),
       ),
       body: Consumer(
